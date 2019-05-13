@@ -1,0 +1,71 @@
+PODS:
+  - VirgilCrypto (5.0.0-alpha2):
+    - VirgilCryptoAPI (~> 1.0)
+    - VirgilCryptoFoundation (~> 0.6.0)
+  - VirgilCryptoAPI (1.0.5)
+  - VirgilCryptoFoundation (0.6.0):
+    - VSCCrypto/Common (= 0.6.0)
+    - VSCCrypto/Foundation (= 0.6.0)
+  - VirgilCryptoPythia (0.6.0):
+    - VirgilCryptoFoundation (= 0.6.0)
+    - VSCCrypto/Common (= 0.6.0)
+    - VSCCrypto/Foundation (= 0.6.0)
+    - VSCCrypto/Pythia (= 0.6.0)
+  - VirgilE3Kit (0.5.1):
+    - VirgilSDKKeyknox (~> 0.4.1)
+    - VirgilSDKPythia (~> 0.5.1)
+  - VirgilSDK (5.7.2):
+    - VirgilCryptoAPI (~> 1.0)
+  - VirgilSDKKeyknox (0.4.1):
+    - VirgilCrypto (~> 5.0.0-alpha2)
+    - VirgilSDK (~> 5.7)
+  - VirgilSDKPythia (0.5.1):
+    - VirgilCrypto (~> 5.0.0-alpha2)
+    - VirgilCryptoPythia (~> 0.6.0)
+    - VirgilSDK (~> 5.7)
+  - VSCCrypto/Common (0.6.0)
+  - VSCCrypto/Foundation (0.6.0)
+  - VSCCrypto/Pythia (0.6.0)
+  - Wrapper (0.1.0):
+    - VirgilE3Kit (~> 0.5.1)
+
+DEPENDENCIES:
+  - Wrapper (from `https://github.com/Ogerets/e3kit-wrapper.git`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - VirgilCrypto
+    - VirgilCryptoAPI
+    - VirgilCryptoFoundation
+    - VirgilCryptoPythia
+    - VirgilE3Kit
+    - VirgilSDK
+    - VirgilSDKKeyknox
+    - VirgilSDKPythia
+    - VSCCrypto
+
+EXTERNAL SOURCES:
+  Wrapper:
+    :branch: master
+    :git: https://github.com/Ogerets/e3kit-wrapper.git
+
+CHECKOUT OPTIONS:
+  Wrapper:
+    :commit: a55d9517bfd6d617e268c591a7def0ca02b613cb
+    :git: https://github.com/Ogerets/e3kit-wrapper.git
+
+SPEC CHECKSUMS:
+  VirgilCrypto: a83147fcf773a8ca83eff8f15c0ed09fa772dd8c
+  VirgilCryptoAPI: 1c8dd0ccd88d8884c34e5afac7fed787feb0fcee
+  VirgilCryptoFoundation: cd247acb1c15d66bb31ebbbace194dee15aaf0f3
+  VirgilCryptoPythia: 4adc5e99e63233a18949c1e8487b42d0d03cfb5e
+  VirgilE3Kit: e7cf3ce650d3a04e4d6d9dc2a745ba7aa2b94a65
+  VirgilSDK: 85d13bb1269495989f1268895ffcbd306cda1232
+  VirgilSDKKeyknox: d387ffe949a7c024317e6ea18a281a68f10d8c47
+  VirgilSDKPythia: 38f763046d3c9c248eedf1dace2b7eb54bffb05d
+  VSCCrypto: 112af40992f3aac65816556e960873855b4cf049
+  Wrapper: 5e8a8e1a319c3159e9dada1faf73dd0c1f16b2ed
+
+PODFILE CHECKSUM: 95319d8240e3a4a6558d81cbb5a93ce212ac66cc
+
+COCOAPODS: 1.7.0.beta.3
